@@ -859,7 +859,8 @@ table tbody td {
 }
 
 #related-posts .card {
-  border: none;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0 0 5px 0 rgba(234, 234, 234, 0.7686274509803922);
   -webkit-transition: all .5s ease-in-out;;
   -moz-transition: all .5s ease-in-out;;
   transition: all .5s ease-in-out;
@@ -867,6 +868,10 @@ table tbody td {
 
 #related-posts .card h3 {
   color: #353a3d;
+}
+
+#related-posts .timeago {
+  color: rgba(30,55,70,.4);
 }
 
 #related-posts p {

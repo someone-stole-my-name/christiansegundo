@@ -47,10 +47,10 @@
       {% assign data = score_item | split: ":" %}
       {% assign index = data[1] | plus: 0 %}
       {% assign post = site.posts[index] %}
-      <div class="card btn-box-shadow">
+      <div class="card">
         <a href="{{ post.url }}">
           <div class="card-body">
-            <span class="timeago text-muted small">
+            <span class="timeago small">
                 {{ post.date | date: POST_DATE }}
                 <i class="hidden">{{ page.date | date_to_xmlschema }}</i>
             </span>
