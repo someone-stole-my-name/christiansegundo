@@ -6,29 +6,29 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Chirpy
+title: CHECK CAPS LOCK
 
-description: 'A text-based Jekyll theme.'
+description: 'Blog personal de Christian Segundo.'
 
 # Replace with your domain, e.g. "https://username.github.io"
-url: 'https://www.example.com'
+url: 'https://someone-stole-my-name.github.io/'
 
-author: Cotes Chung                     # change to your full name
+author: Christian Segundo                     # change to your full name
 
-avatar: /assets/img/sample/avatar.jpg   # Support network resources.
+avatar: https://source.unsplash.com/collection/139386/600x600?a=.png   # Support network resources.
 
 github:
-  username: github_username             # change to your github username
+  username: someone-stole-my-name             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: chrn2g            # change to your twitter username
 
 social:
-  name: Chirpy                          # change to your full name
+  name: Christian Segundo                          # change to your full name
   email: example@doamin.com             # change to your email address
   links:
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://twitter.com/chrn2g      # change to your twitter homepage
+    - https://github.com/someone-stole-my-name       # change to your github homepage
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
@@ -37,7 +37,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 #--------------------------
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: Europe/Madrid
 
 google_analytics:
   # Change to your Google Analytics ID
@@ -47,11 +47,11 @@ google_analytics:
   pv: false
 
 disqus:
-  shortname: 'disqus'   # Change to your Disqus shortname.
+  shortname: 'check-caps-lock'   # Change to your Disqus shortname.
   comments: true        # boolean type, the gobal switch of posts' comments.
 
 # The year your website was first run.
-first_run: 2019
+first_run: 2015
 
 # boolean type, gobal switch for ToC in posts.
 toc: true

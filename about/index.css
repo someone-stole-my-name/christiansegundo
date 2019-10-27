@@ -1,0 +1,31 @@
+@charset "utf8";
+
+html, body {
+	height: 100%;
+}
+
+html {
+	font-family: monospace;
+	display: table;
+	margin: auto;
+}
+
+body {
+	background: #001f3f;
+	color: #0074D9;
+	padding: 0 20ch;
+	max-width: 80ch;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+h1, h2 {
+	font-size:100%;
+
+}
+
+h1 {
+	color: #7FDBFF;
+	font-weight: bold;
+	text-align: center;
+}

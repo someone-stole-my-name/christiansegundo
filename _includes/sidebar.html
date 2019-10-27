@@ -55,7 +55,8 @@
     <i class="fab fa-twitter"></i>
   </a>
   {% assign email = site.social.email | split: '@' %}
-  <a href="javascript:window.open('mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@'))">
+  <!-- <a href="javascript:window.open('mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@'))"> -->
+    <a href="/about">
     <i class="fas fa-envelope"></i>
   </a>
   <a href="{{ site.baseurl }}/feed.xml" target="_blank">

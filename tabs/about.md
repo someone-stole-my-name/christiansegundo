@@ -1,35 +1,25 @@
 ---
 title: About
-
-# The About page
-# © 2017-2019 Cotes Chung
-# MIT License
 ---
 
-**Chirpy** is an responsive web design Jekyll theme developed using Bootstrap 4.
+## I'm Christian Segundo, a hardworking and ambitious guy
 
+With broad skills and experience in Cloud and SaaS projects. Furthermore, I am always highly enthused about my work and adept at working under pressure.
 
-## Features
+### What I do
+ * #### Back-end
+  * APIs
+  * SysAdmin
+  * DevOps
+  * NoSQL
 
-* Last modified date
-* Table of Contents
-* Disqus Comments
-* Syntax highlighting
-* Two-level Categories
-* Search
-* HTML compress
-* Atom feeds
-* Google Analytics
-* Pageviews (Advanced)
+ * #### Programming
+  * Perl
+  * Go
+  * Python
 
-## Homepage
-
-You can fork this project from the [Homepage](https://github.com/cotes2020/jekyll-theme-chirpy/). Any issues and suggestions are welcome!
-
-## Usage
-
-Follow the [tutorial posts]({{ site.baseurl }}/categories/tutorial/), they will help you build a site quickly.
-
-## License
-
-This project is published under the [MIT License](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE).
+ * #### Cloud
+  * AWS
+  * Google
+ 
+I'm available for remote work, let's build something together?
