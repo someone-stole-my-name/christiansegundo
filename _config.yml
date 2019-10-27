@@ -49,7 +49,7 @@ disqus:
 first_run: 2015
 
 # boolean type, gobal switch for ToC in posts.
-toc: true
+toc: false
 
 
 # if your site type is Project Pages site, change below value to '/projectname'
