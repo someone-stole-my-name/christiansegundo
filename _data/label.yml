@@ -5,7 +5,7 @@
 tabs:
   - { name: "Home" }
   - { name: "Categories", path: tabs, url: categories }
-  - { name: "Tags", path: tabs, url: tags }
+#  - { name: "Tags", path: tabs, url: tags }
   - { name: "Archives", path: tabs, url: archives }
   - { name: "About", path: about, url: }
 
