@@ -48,21 +48,31 @@
 </div><!-- #nav-wrap -->
 
 <div class="contact d-flex justify-content-around mt-3">
+  {% if site.github.username %}
   <a href="https://github.com/{{ site.github.username }}" target="_blank">
     <i class="fab fa-github"></i>
   </a>
+  {% endif %}
+  {% if site.keybase.username %}
   <a href="https://keybase.io/{{ site.keybase.username }}" target="_blank">
     <i class="fab fa-keybase"></i>
   </a>
+  {% endif %}
+  {% if site.upwork.username %}
   <a href="https://upwork.com/fl/{{ site.upwork.username }}" target="_blank">
     <i class="iconify" data-icon="simple-icons:upwork"></i>
   </a>
+  {% endif %}
+  {% if site.fiverr.username %}
   <a href="https://www.fiverr.com/{{ site.fiverr.username }}" target="_blank">
     <i class="iconify" data-icon="jam:fiverr"></i>
   </a>
+  {% endif %}
+  {% if site.twitter.username %}
   <a href="https://twitter.com/{{ site.twitter.username }}" target="_blank">
     <i class="fab fa-twitter"></i>
   </a>
+  {% endif %}
   {% assign email = site.social.email | split: '@' %}
   <!-- <a href="javascript:window.open('mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@'))"> -->
     <a href="/about">
