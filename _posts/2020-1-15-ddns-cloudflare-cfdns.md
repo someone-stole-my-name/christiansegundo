@@ -10,7 +10,7 @@ tags:
 
 ## Why?
 
-Because I had to update a ddclient's config file recently and it made me fantasize with suicide. Forget about ddclient, cfdns is a much simpler and cleaner solution.
+cfdns is simple and clean solution to update your CloudFlare dynamic A records.
 
 ## Installation
 
