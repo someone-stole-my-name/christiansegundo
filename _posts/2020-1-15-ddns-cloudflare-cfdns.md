@@ -8,8 +8,6 @@ tags:
 - dns
 ---
 
-## Why?
-
 cfdns is simple and clean solution to update your CloudFlare dynamic A records.
 
 ## Installation
@@ -42,13 +40,13 @@ cfdns uses a simple and self explanatory JSON file that looks like this:
            "Username": "myaccount@someone.com",
            "API-Key": "88b2b8e3d2b68b9cc4b945d81516v91d77k6g",
            "Zone": "myzone.xyz",
-           "Entry": "myentry.xyz"
+           "Entry": "myzone.xyz"
        },
        {
            "Username": "myaccount_1@someone.com",
            "API-Key": "55b2b8e3d2b68b9cc4b945d81516v91d77k6g",
            "Zone": "anotherzone.xyz",
-           "Entry": "anotherentry.xyz"
+           "Entry": "anotherzone.xyz"
        }
    ]
 }
