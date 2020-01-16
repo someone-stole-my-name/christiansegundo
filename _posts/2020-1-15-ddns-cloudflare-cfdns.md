@@ -24,6 +24,8 @@ Get the latest version here: https://github.com/someone-stole-my-name/cfdns/rele
 
 ```
 wget https://github.com/someone-stole-my-name/cfdns/releases/download/v1.0/cfdns_linx64
+mv cfdns_linx64 cfdns
+chmod +x cfdns
 ```
 
 ### Configuration
