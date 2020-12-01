@@ -15,7 +15,11 @@ layout: page
     </h1>
     <div class="post-content">
       <p>
+      {% if post.excerpt_separator %}
+      {{ post.excerpt }}
+      {% else %}
       {{ post.content | strip_html | truncate: 200 }}
+      {% endif %}
       </p>
     </div>
 
