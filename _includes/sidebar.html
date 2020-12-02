@@ -21,6 +21,7 @@
   </div>
   <div id="site-subtitle" class="font-italic">{{ site.description }}</div>
   <ul class="nav flex-column">
+  <hr>
 
   {% assign page_urls = page.url | split: "/" %}
 
@@ -78,7 +79,7 @@
     <a href="/about">
     <i class="fas fa-envelope"></i>
   </a>
-  <!-- <a href="{{ site.baseurl }}/feed.xml" target="_blank">
+  <a href="{{ site.baseurl }}/feed.xml" target="_blank">
     <i class="fas fa-rss"></i>
-  </a> -->
+  </a>
 </div>
