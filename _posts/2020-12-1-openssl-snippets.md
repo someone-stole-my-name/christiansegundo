@@ -27,6 +27,8 @@ OUT=my.p12
 openssl pkcs12 -export -in $CRT -inkey $KEY -out $OUT
 ```
 
+## Bonus
+
 ### Add a password to an existing Private Key
 
 ```
