@@ -26,9 +26,6 @@ social:
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
-#--------------------------
-
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Europe/Madrid
 
 google_analytics:
