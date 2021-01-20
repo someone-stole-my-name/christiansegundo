@@ -8,6 +8,17 @@ tags:
 
 Setting up a private Certificate Authority for development purposes can be tricky business. Whether you are doing integration tests with services that require certificates or just developing something, getting your own certificates kind of sucks unless you know how to create a CA and sign certificates.
 
+<h3>Table of contents</h3>
+
+<div id="inline_toc" markdown="1">
+
+* TOC
+{:toc}
+
+</div>
+
+----
+
 ## Generate a CA
 
 ### Private key
