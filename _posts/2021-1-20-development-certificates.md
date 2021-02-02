@@ -98,6 +98,6 @@ openssl x509 -req -in dev.environment.com.csr -CA myCA.pem -CAkey myCA.key -CAcr
 
 ## Easy mode
 
-Once you get the hang of how everything works, use a wrapper script to easy your life. See [development-certificates](https://github.com/someone-stole-my-name/development-certificates) repository.
+Once you get the hang of how everything works, use a wrapper script to easy your life. See [development-certificates](https://github.com/someone-stole-my-name/development-certificates) repository or something like https://devcerts.netlify.app
 
 ----
