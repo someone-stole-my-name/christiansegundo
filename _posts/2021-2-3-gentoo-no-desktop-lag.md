@@ -13,7 +13,13 @@ tags:
 
 Start by creating a new systemd unit `/etc/systemd/system/portage.slice`:
 
-{% gist 06918fe93857d32e7ca16be9551a7cd6 portage.slice %}
+```
+[Install]
+WantedBy=slices.target
+
+[Slice]
+CPUShares=256
+```
 
 Enable and start the portage.slice unit you just created:
 
@@ -36,6 +42,8 @@ CPUShares option defaults to 1024, systemd will create a user slice for each use
 
 Add the following line to your `/etc/portage/make.conf`:
 
-{% gist 06918fe93857d32e7ca16be9551a7cd6 make.conf %}
+```
+PORTAGE_IONICE_COMMAND="sh -c \"echo \${PID} > /sys/fs/cgroup/systemd/portage.slice/cgroup.procs\""
+```
 
 ----
