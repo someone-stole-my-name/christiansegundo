@@ -37,7 +37,12 @@ vgextend influxdb /dev/vdh
 
 ```
 lvextend -l +100%FREE /dev/influxdb/influxdb
+
+# ext4
 resize2fs /dev/influxdb/influxdb
+
+# xfs
+xfs_growfs /dev/mapper/influxdb-influxdb
 ```
 
 ----
